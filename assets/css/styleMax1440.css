@@ -1,0 +1,170 @@
+.container{
+    max-width: 1350px;
+}
+.mainnav li a{
+    font-size: 27px;
+    padding: 0px 18px;
+}
+.mainnav li a.get_started{
+    font-size: 28px;
+}
+.mainnav {
+    padding-top: 16px;
+}
+.wrapper2 p{
+    font-size: 23px;
+}
+.wrapper2 p a.get_started{
+    font-size: 28px;
+}
+.wrapper2 .logo2 {
+    padding: 50px 415px 0;
+}
+.wrapper3row h3{
+    font-size: 22px;
+}
+.wrapper3row p{
+    font-size: 14px;
+}
+.wrapper3_1row h2{
+    font-size: 45px;
+}
+.wrapper3_1row p{
+    font-size: 19px;
+}
+.wrapper3_1row p a.get_started{
+    font-size: 28px;
+}
+.wrapper4{
+    padding: 12px 0;
+}
+.black_logo{
+    font-size: 45px;
+}
+.black_logo img{
+    width: 212px;
+}
+.wrapper3{
+    padding: 100px 0;
+}
+.band_logo img{
+    width: 225px;
+}
+.group_images img{
+    width: 900px;
+}
+.testimonial_slider .text{
+    font-size: 15px;
+}
+.wrapper6 ul li {
+    padding: 100px 30px;
+}
+.wrapper6 h2 {
+    font-size: 35px;
+}
+.wrapper6 h3 {
+    font-size: 30px;
+}
+.wrapper6 p {
+    font-size: 16px;
+}
+.wrapper6 p a.get_started{
+    font-size: 28px;
+}
+.wrapper7 p{
+    font-size: 15px;
+}
+.wrapper7{
+    padding: 12px 0;
+}
+.wrapper8{
+    padding: 100px 0;
+}
+.wrapper8 img{
+    width: 503px;
+}
+.wrapper9 h2{
+    font-size: 23px;
+}
+.wrapper9 ul li a{
+    font-size: 14px;
+}
+.wrapper9 p{
+    font-size: 14px;
+}
+ul.social-connects img{
+    width: 35px;
+}
+ul.social-connects li{
+    padding: 5px;
+}
+.wrapper3_col1, .wrapper3_col2{
+    padding-bottom: 0;
+}
+.wrapper13_container{
+    padding: 35px 25px;
+}
+.popup_form h2{
+    font-size: 32px;
+}
+/* */
+.wrapper10{
+    padding: 10px 0;
+}
+.wrapper10 .logo{
+    max-width: 250px;
+}
+.wrapper10 .wrapper10_usermenu ul li:first-child img{
+    width: 51px;
+}
+.wrapper10 .wrapper10_usermenu ul li:nth-child(2) img{
+    width: 36px;
+}
+.wrapper10 .wrapper10_usermenu ul li:nth-child(3) img{
+    width: 20px;
+}
+.wrapper10_usermenu ul li:first-child a span {
+    position: absolute;
+    top: 20px;
+    left: 31px;
+    color: #f7f9fa;
+    font-size: 15px;
+}
+.wrapper10_usermenu ul li a{
+    font-size: 22px;
+}
+.section2 .applybtn{
+    font-size: 21px;
+}
+.section2 .resetbtn{
+    font-size: 21px;
+}
+.wrapper11row ul li:first-child img{
+    width: 40px;
+}
+.wrapper11row ul li:nth-child(2) img{
+    width: 40px;
+}
+.wrapper11row ul li h3{
+    font-size: 20px;
+}
+.wrapper11row ul li p{
+    font-size: 18px;
+}
+.wrapper11row{
+    padding: 15px 0;
+}
+.tags ul li{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.wrapper11row ul li:nth-child(4) {
+    width: 42%;
+    padding-right: 20px;
+}
+.wrapper11row ul li:nth-child(6) {
+    width: 10%;
+}
+.wrapper12{
+    padding: 13px 0;
+}

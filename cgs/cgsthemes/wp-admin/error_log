@@ -1,0 +1,77 @@
+[19-Sep-2017 08:01:30 UTC] PHP Warning:  require_once(/home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/tgm/class-tgm-plugin-activation.php): failed to open stream: No such file or directory in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 190
+[19-Sep-2017 08:01:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/tgm/class-tgm-plugin-activation.php' (include_path='.:/opt/php56/lib/php') in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 190
+[19-Sep-2017 08:19:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'testimonials_register' not found or invalid function name in /home1/cgsthemes/public_html/cgs/wp-includes/class-wp-hook.php on line 298
+[19-Sep-2017 08:19:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'testimonials_register' not found or invalid function name in /home1/cgsthemes/public_html/cgs/wp-includes/class-wp-hook.php on line 298
+[19-Sep-2017 08:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cgsthemes/public_html/cgs/wp-includes/class-wp-hook.php:298) in /home1/cgsthemes/public_html/cgs/wp-includes/option.php on line 837
+[19-Sep-2017 08:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cgsthemes/public_html/cgs/wp-includes/class-wp-hook.php:298) in /home1/cgsthemes/public_html/cgs/wp-includes/option.php on line 838
+[19-Sep-2017 08:19:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'testimonials_register' not found or invalid function name in /home1/cgsthemes/public_html/cgs/wp-includes/class-wp-hook.php on line 298
+[19-Sep-2017 08:19:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cgsthemes/public_html/cgs/wp-includes/class-wp-hook.php:298) in /home1/cgsthemes/public_html/cgs/wp-includes/option.php on line 837
+[19-Sep-2017 08:19:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cgsthemes/public_html/cgs/wp-includes/class-wp-hook.php:298) in /home1/cgsthemes/public_html/cgs/wp-includes/option.php on line 838
+[24-Apr-2018 13:43:00 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/cgsthemes/public_html/cgs/wp-includes/wp-db.php on line 1531
+[24-Apr-2018 13:43:00 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/cgsthemes/public_html/cgs/wp-includes/wp-db.php on line 1562
+[24-Apr-2018 13:43:00 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/cgsthemes/public_html/cgs/wp-includes/wp-db.php on line 1562
+[24-Apr-2018 13:43:08 UTC] PHP Warning:  mysqli_real_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/cgsthemes/public_html/cgs/wp-includes/wp-db.php on line 1531
+[24-Apr-2018 13:43:08 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/cgsthemes/public_html/cgs/wp-includes/wp-db.php on line 1562
+[24-Apr-2018 13:43:08 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home1/cgsthemes/public_html/cgs/wp-includes/wp-db.php on line 1562
+[24-Apr-2018 13:50:04 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 73
+[24-Apr-2018 13:50:15 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 73
+[24-Apr-2018 13:52:05 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 73
+[24-Apr-2018 13:52:05 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 73
+[13-Jun-2018 13:00:59 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 672
+[13-Jun-2018 13:00:59 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 672
+[13-Jun-2018 13:01:09 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 672
+[14-Jun-2018 11:29:33 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 66
+[14-Jun-2018 11:30:03 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 66
+[14-Jun-2018 11:30:54 UTC] PHP Deprecated:  mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 236
+[14-Jun-2018 11:30:54 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "" sidebar. Defaulting to "". Manually set the <code>id</code> to "" to silence this notice and keep existing sidebar content. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home1/cgsthemes/public_html/cgs/wp-includes/functions.php on line 4148
+[14-Jun-2018 11:30:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php:236) in /home1/cgsthemes/public_html/cgs/wp-includes/pluggable.php on line 1216
+[14-Jun-2018 11:31:32 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "" sidebar. Defaulting to "". Manually set the <code>id</code> to "" to silence this notice and keep existing sidebar content. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home1/cgsthemes/public_html/cgs/wp-includes/functions.php on line 4148
+[14-Jun-2018 11:31:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cgsthemes/public_html/cgs/wp-includes/functions.php:4148) in /home1/cgsthemes/public_html/cgs/wp-includes/pluggable.php on line 1216
+[14-Jun-2018 11:31:42 UTC] PHP Notice:  register_sidebar was called <strong>incorrectly</strong>. No <code>id</code> was set in the arguments array for the "" sidebar. Defaulting to "". Manually set the <code>id</code> to "" to silence this notice and keep existing sidebar content. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in /home1/cgsthemes/public_html/cgs/wp-includes/functions.php on line 4148
+[14-Jun-2018 11:31:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/cgsthemes/public_html/cgs/wp-includes/functions.php:4148) in /home1/cgsthemes/public_html/cgs/wp-includes/pluggable.php on line 1216
+[14-Jun-2018 11:32:53 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 66
+[14-Jun-2018 11:33:16 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 66
+[14-Jun-2018 11:33:17 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 66
+[14-Jun-2018 11:33:17 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 66
+[14-Jun-2018 11:33:22 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 66
+[17-Jul-2018 13:14:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 387
+[17-Jul-2018 13:14:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 387
+[17-Jul-2018 13:14:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 387
+[17-Jul-2018 13:14:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 387
+[17-Jul-2018 13:14:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/cgsthemes/public_html/cgs/wp-content/themes/cgs-theme/functions.php on line 387
+[10-Aug-2018 06:39:05 UTC] Exception caught in get_order. The end date must occur after the next payment date.. Args: Array
+(
+    [0] => 586
+)
+..
+[10-Aug-2018 06:39:16 UTC] Exception caught in get_order. The end date must occur after the next payment date.. Args: Array
+(
+    [0] => 586
+)
+..
+[10-Aug-2018 06:39:16 UTC] Exception caught in get_order. The end date must occur after the next payment date.. Args: Array
+(
+    [0] => 586
+)
+..
+[10-Aug-2018 06:39:16 UTC] Exception caught in get_order. The end date must occur after the next payment date.. Args: Array
+(
+    [0] => 586
+)
+..
+[10-Aug-2018 06:39:29 UTC] Exception caught in get_order. The end date must occur after the next payment date.. Args: Array
+(
+    [0] => 586
+)
+..
+[10-Aug-2018 06:39:29 UTC] Exception caught in get_order. The end date must occur after the next payment date.. Args: Array
+(
+    [0] => 586
+)
+..
+[10-Aug-2018 06:39:29 UTC] Exception caught in get_order. The end date must occur after the next payment date.. Args: Array
+(
+    [0] => 586
+)
+..
+[16-Aug-2018 08:04:12 UTC] WordPress database error Unknown column 'post_id' in 'field list' for query SELECT post_id FROM cgs_activation_api_key  made by do_action('toplevel_page_activation-keys'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, function_activation_keys, include_once('/themes/cgs-theme/function_key_activation.php')

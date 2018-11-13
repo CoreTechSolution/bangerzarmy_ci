@@ -1,0 +1,168 @@
+.container{
+    max-width: 1280px;
+}
+.mainnav li a{
+    font-size: 25px;
+    padding: 0px 18px;
+}
+.mainnav li a.get_started{
+    font-size: 24px;
+}
+.wrapper13 {
+    margin: 108px 0px;
+}
+.macbookairs .col-xl-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.wrapper13_container{
+    padding: 48px 28px;
+}
+/* */
+.wrapper10{
+    padding: 10px 0;
+}
+.wrapper10 .logo{
+    max-width: 250px;
+}
+.wrapper10 .wrapper10_usermenu ul li:first-child img{
+    width: 51px;
+}
+.wrapper10 .wrapper10_usermenu ul li:nth-child(2) img{
+    width: 36px;
+}
+.wrapper10 .wrapper10_usermenu ul li:nth-child(3) img{
+    width: 20px;
+}
+.wrapper10_usermenu ul li:first-child a span {
+    position: absolute;
+    top: 20px;
+    left: 31px;
+    color: #f7f9fa;
+    font-size: 15px;
+}
+.wrapper10_usermenu ul li a{
+    font-size: 22px;
+}
+.section2 .applybtn{
+    font-size: 21px;
+}
+.section2 .resetbtn{
+    font-size: 21px;
+}
+.wrapper11row ul li:first-child img{
+    width: 40px;
+}
+.wrapper11row ul li:nth-child(2) img{
+    width: 40px;
+}
+.wrapper11row ul li h3{
+    font-size: 20px;
+}
+.wrapper11row ul li p{
+    font-size: 18px;
+}
+.wrapper11row{
+    padding: 15px 0;
+}
+.tags ul li{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.wrapper11row ul li:nth-child(4) {
+    width: 42%;
+    padding-right: 20px;
+}
+.wrapper11row ul li:nth-child(6) {
+    width: 10%;
+}
+.wrapper12{
+    padding: 13px 0;
+}
+/**/
+.wrapper2 .logo2 {
+    text-align: center;
+    padding: 50px 335px 0;
+}
+.wrapper2 p{
+    font-size: 22px;
+}
+.wrapper1 .logo{
+    max-width: 300px;
+}
+.wrapper2 p a.get_started{
+    font-size: 24px;
+}
+.wrapper3{
+    padding: 108px 0;
+}
+.wrapper3row h3{
+    font-size: 19px;
+}
+.wrapper3row p{
+    font-size: 15px;
+}
+.wrapper3_1row h2{
+    font-size: 42px;
+}
+.wrapper3_1row p{
+    font-size: 18px;
+}
+.wrapper2 p a.get_started{
+    font-size: 24px;
+}
+.wrapper3_1row p a.get_started{
+    font-size: 24px;
+}
+.wrapper6 p a.get_started{
+    font-size: 24px;
+}
+.black_logo img {
+    width: 162px;
+}
+.black_logo {
+    font-size: 36px;
+}
+.group_images img {
+    width: 900px;
+}
+.band_logo img {
+    width: 225px;
+}
+.testimonial_slider .text {
+    font-size: 15px;
+}
+.wrapper6 h2{
+    font-size: 30px;
+}
+.wrapper6 h3{
+    font-size: 22px;
+}
+.wrapper6 ul li:first-child h3 span{
+    font-size: 12px;
+}
+.wrapper6 p{
+    font-size: 14px;
+}
+.wrapper7{
+    padding: 20px 0;
+}
+.wrapper8{
+    padding: 108px 0;
+}
+ul.social-connects li {
+    padding: 5px;
+}
+.wrapper9 ul li a {
+    font-size: 14px;
+}
+ul.social-connects img {
+    width: 35px;
+}
+.wrapper9 p{
+    font-size: 14px;
+}
+.wrapper9 h2{
+    font-size: 25px;
+}

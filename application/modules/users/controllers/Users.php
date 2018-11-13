@@ -28,30 +28,35 @@ class Users extends MY_Controller {
         $data = array();
         
         if($this->input->post('loginSubmit')){
-            $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+            $this->form_validation->set_rules('username', 'Username', 'required');
             $this->form_validation->set_rules('password', 'password', 'required');
             if ($this->form_validation->run() == true) {
                
                 $conditions = array(
-                    'email'=>$this->input->post('email'),
+                    'username'=>$this->input->post('username'),
                     'status' => 'active'
                 );
                 $checkLogin = $this->users_m->login($conditions,trim($this->input->post('password')));
 
                 if($checkLogin){
                     $this->session->set_userdata('logged_in',TRUE);
+                    //$this->session->set_userdata('isLogin',TRUE);
                     $this->session->set_userdata('user_id',$checkLogin->user_id);
+                    $this->session->set_userdata('display_name',$checkLogin->display_name);
                     $this->session->set_userdata('user_type',$checkLogin->user_types);
                     //ob_clean();
                     redirect($checkLogin->user_types.'/dashboard/');
                 }else{
-                    $this->session->set_flashdata( 'msg', "Wrong email or password, please try again." );
+                    $this->session->set_flashdata('msg', 'Wrong Username or Password, please try again!');
+                    $this->session->set_flashdata('msg_type', 'Error');
+
                 }
             }
         }
 
         $data['content_v'] = 'users/login';
-        $this->templates->call_template($data);
+        $this->load->view('users/login');
+        //$this->templates->call_template($data);
     }
     public function usertype(){
         //$data['method']='registration'

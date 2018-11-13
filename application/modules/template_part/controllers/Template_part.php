@@ -28,6 +28,9 @@ class Template_part extends MY_Controller {
 	        case 'sidebar_beat_listing':
 		        $this->sidebar_beat_listing();
 		        break;
+            case 'error_alert':
+                $this->error_alert();
+                break;
         	default:
         		# code...
         		break;
@@ -59,4 +62,7 @@ class Template_part extends MY_Controller {
     	$data['beat_lists']=$beat_lists;
 		$this->load->view('sidebar_beat_listing',$data);
 	}
+    public function error_alert(){
+        $this->load->view('error_alert');
+    }
 }

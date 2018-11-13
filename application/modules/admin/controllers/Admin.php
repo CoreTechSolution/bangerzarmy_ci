@@ -18,7 +18,7 @@ class Admin extends MY_Controller {
     	$data['name']=$this->users->get_user_field($this->users->get_current_user_id(),'name');
     	$data['content_v'] = 'admin/dashboard_v';
     	//print_r($data);
-        $this->templates->call_template($data);
+        $this->templates->call_template($data,'admin');
 
     }
     public function users(){

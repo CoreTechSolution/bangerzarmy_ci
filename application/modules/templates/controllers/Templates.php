@@ -6,7 +6,12 @@ class Templates extends MY_Controller {
         parent::__construct();
     }
 
-    function call_template($data = null) {
-        $this->load->view('templates/template_v', $data);
+    function call_template($data = null,$user_type='user') {
+        if($user_type=='admin'){
+            $this->load->view('templates/template_admin_v', $data);
+        } else{
+            $this->load->view('templates/template_v', $data);
+        }
+
     }
 }

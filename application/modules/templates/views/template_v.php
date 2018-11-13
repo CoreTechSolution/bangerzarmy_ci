@@ -39,7 +39,12 @@
                         <li><a href="javascript:void(0)">How It Works</a></li>
                         <li><a href="javascript:void(0)">Pricing</a></li>
                         <li><a href="javascript:void(0)">Forum</a></li>
-                        <li><a href="javascript:void(0)">Login</a></li>
+
+                        <?php if(empty($this->session->userdata('logged_in'))){ ?>
+                            <li><a href="<?php echo base_url('users/login'); ?>">Login</a></li>
+                        <?php } else { ?>
+                            <li><a href="<?php echo base_url('users/logout'); ?>">Logout</a></li>
+                        <?php } ?>
                         <li><a href="javascript:void(0)" class="get_started">Get Started</a></li>
                     </ul>
                 </div>
@@ -66,9 +71,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0);">Forum</a>
                     </li>
+                    <?php if(empty($this->session->userdata('isLogin'))){ ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);">Login</a>
+                        <a class="nav-link" href="<?php echo base_url('users/login'); ?>">Login</a>
                     </li>
+                    <?php } ?>
                 </ul>
             </div>
         </nav>

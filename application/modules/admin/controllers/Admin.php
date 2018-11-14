@@ -21,6 +21,15 @@ class Admin extends MY_Controller {
         $this->templates->call_template($data,'admin');
 
     }
+    public function library(){
+        isLogin();
+        isUserType('admin');
+        $data['title'] = 'Library';
+        //$data['name']=$this->users->get_user_field($this->users->get_current_user_id(),'name');
+        $data['content_v'] = 'admin/library_v';
+        //print_r($data);
+        $this->templates->call_template($data,'admin');
+    }
     public function users(){
         isLogin();
         isUserType('admin');

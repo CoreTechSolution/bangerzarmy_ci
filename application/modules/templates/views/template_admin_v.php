@@ -5,7 +5,7 @@
     <!-- Basic -->
     <meta charset="UTF-8">
 
-    <title>Dashboard | Porto Admin - Responsive HTML5 Template 1.4.1</title>
+    <title><?= ucfirst($title); ?> | Bangerzarmy</title>
     <meta name="keywords" content="HTML5 Admin Template" />
     <meta name="description" content="Porto Admin - Responsive HTML5 Template">
     <meta name="author" content="okler.net">
@@ -78,9 +78,9 @@
                         <li>
                             <a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="fa fa-user"></i> My Profile</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a role="menuitem" tabindex="-1" href="<?php echo base_url('users/logout'); ?>"><i class="fa fa-power-off"></i> Logout</a>
                         </li>
